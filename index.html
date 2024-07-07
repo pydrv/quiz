@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Simple Quiz</title>
+<title> Pydrv's Simple Quiz</title>
 <style>
     body {
         font-family: Arial, sans-serif;
@@ -118,7 +118,7 @@
             score++;
             resultElement.textContent = 'Correct!';
         } else {
-            resultElement.textContent = `Wrong! The correct answer is ${correctAnswer}.`;
+            resultElement.textContent = `Wrong! The correct answer is ${correctAnswer}. Better luck next time!`;
         }
         currentQuestion++;
         if (currentQuestion < quizData.length) {
